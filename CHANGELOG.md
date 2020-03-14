@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/ifiokjr/prettier-plugin-sorted/compare/v1.1.0...v1.2.0) (2020-03-14)
+
+
+### Features
+
+* new option `spaceAfterAliases` ([2e424b8](https://github.com/ifiokjr/prettier-plugin-sorted/commit/2e424b895ce9a9fc50f00ffefd497a20b974144a))
+
 ## [1.1.0](https://github.com/ifiokjr/prettier-plugin-sorted/compare/v1.0.0...v1.1.0) (2020-03-14)
 
 
