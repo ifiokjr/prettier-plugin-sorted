@@ -46,16 +46,6 @@ jobs:
       - name: run unit tests
         run: yarn test --coverage
 
-      - name: build project
-        run: yarn build
-
-      - name: upload build artifact
-        uses: actions/upload-artifact@v1
-        if: matrix.node-version == '12.x'
-        with:
-          name: build
-          path: dist/
-
   release:
     needs: [build]
     if: github.ref == 'refs/heads/master'
@@ -81,12 +71,6 @@ jobs:
 
       - name: install dependencies
         run: yarn --pure-lockfile
-
-      - name: download build artifact
-        uses: actions/download-artifact@v1
-        with:
-          name: build
-          path: dist/
 
       - name: release with semantic release
         env:
