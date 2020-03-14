@@ -4374,15 +4374,15 @@ import-sort-parser@^6.0.0:
   resolved "https://registry.yarnpkg.com/import-sort-parser/-/import-sort-parser-6.0.0.tgz#0d901f264d98ed7caaae71f66128a686f828f2f4"
   integrity sha512-H5L+d6HnqHvThB0GmAA3/43Sv74oCwL0iMk3/ixOv0LRJ69rCyHXeG/+UadMHrD2FefEmgPIWboEPAG7gsQrkA==
 
-import-sort-style-custom@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/import-sort-style-custom/-/import-sort-style-custom-2.0.0.tgz#51221f92adb299459498235adb225b4fbc450868"
-  integrity sha512-SEKPf5zHlMWhd51lSLwfBTtRgBT0HwcJ+xuECQwHl5Iln21spUPwbYgouebleWSB9xa99krgKlT/opwJnTk0EQ==
+import-sort-style-custom@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/import-sort-style-custom/-/import-sort-style-custom-2.1.1.tgz#e05373afe1892676036a19a9624554110166577d"
+  integrity sha512-rUBz/9y4tWeebXBIM7H1AhxcJlApn5NUthaafupCRhx7zKlx2U8EMamwXLiBV80Xht3HAwRG0fXzBJ5JazKy+g==
   dependencies:
     escape-string-regexp "^2.0.0"
     import-sort-parser "^6.0.0"
     import-sort-style "^6.0.0"
-    tsconfig-resolver "^2.0.1"
+    tsconfig-resolver "^2.1.1"
 
 import-sort-style@^6.0.0:
   version "6.0.0"
@@ -8940,15 +8940,14 @@ ts-jest@^24.0.2:
     semver "^5.5"
     yargs-parser "10.x"
 
-tsconfig-resolver@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/tsconfig-resolver/-/tsconfig-resolver-2.0.1.tgz#166e3d2841df1bc58c5017cc8b0db4ee21ab9482"
-  integrity sha512-vZ3zrDMtdLF2bQnNIQ9tPfBz09xdtfE8fhVTQfdvxuMM1pkZbWirTQryjFG2xC1l1hIbeKl33bPd/O9LHn+qIQ==
+tsconfig-resolver@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/tsconfig-resolver/-/tsconfig-resolver-2.1.1.tgz#71e3cc763b3466fd54bbf41e205db803a3d97998"
+  integrity sha512-7HJQgbQ+RhUrbvQ5QCf7X++oMq0O2CTp4sK/06VgA9c2wSq1MDir/sjKa97cSAZSBeZuVx1gmhkouplYytnpaw==
   dependencies:
     "@types/json5" "^0.0.30"
     "@types/resolve" "^1.14.0"
     json5 "^2.1.1"
-    prettier-plugin-packagejson "^2.0.10"
     resolve "^1.15.1"
     strip-bom "^4.0.0"
     type-fest "^0.12.0"

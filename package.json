@@ -1,14 +1,13 @@
 {
   "name": "prettier-plugin-sorted",
-  "description": "Sort your JavaScript and TypeScript imports with prettier with automatic alias support",
   "version": "1.1.0",
+  "description": "Sort your JavaScript and TypeScript imports with prettier with automatic alias support",
   "keywords": [
     "import-sort",
     "prettier",
     "sort",
     "typescript",
     "plugin",
-    "import-sort",
     "tsconfig",
     "alias"
   ],
@@ -56,8 +55,8 @@
     "@types/prettier": "^1.19.0",
     "import-sort": "^6.0.0",
     "import-sort-config": "^6.0.0",
-    "import-sort-style-custom": "^2.0.0",
     "import-sort-parser-typescript": "^6.0.0",
+    "import-sort-style-custom": "^2.1.1",
     "tiny-invariant": "^1.1.0"
   },
   "devDependencies": {
@@ -78,7 +77,7 @@
     "prettier": "^1.19.1"
   },
   "importSort": {
-    ".js, .ts, .tsx": {
+    ".js,.ts,.tsx": {
       "options": {
         "cacheStrategy": "directory",
         "wildcardAtStart": false,
