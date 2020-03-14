@@ -1,7 +1,7 @@
 {
   "name": "prettier-plugin-sorted",
   "description": "Sort your JavaScript and TypeScript imports with prettier with automatic alias support",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "keywords": [
     "import-sort",
     "prettier",
