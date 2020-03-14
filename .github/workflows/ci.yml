@@ -1,0 +1,95 @@
+name: Node CI
+
+on: [push]
+
+env:
+  CI: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x]
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: get yarn cache
+        id: yarn-cache
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - uses: actions/cache@v1
+        with:
+          path: ${{ steps.yarn-cache.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: setup node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: audit dependencies
+        run: yarn audit
+
+      - name: install dependencies
+        run: yarn --pure-lockfile
+
+      - name: lint files
+        run: yarn lint
+
+      - name: typecheck project
+        run: yarn tsc --noEmit
+
+      - name: run unit tests
+        run: yarn test --coverage
+
+      - name: build project
+        run: yarn build
+
+      - name: upload build artifact
+        uses: actions/upload-artifact@v1
+        if: matrix.node-version == '12.x'
+        with:
+          name: build
+          path: dist/
+
+  release:
+    needs: [build]
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: get yarn cache
+        id: yarn-cache
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - uses: actions/cache@v1
+        with:
+          path: ${{ steps.yarn-cache.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: setup node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: install dependencies
+        run: yarn --pure-lockfile
+
+      - name: download build artifact
+        uses: actions/download-artifact@v1
+        with:
+          name: build
+          path: dist/
+
+      - name: release with semantic release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn semantic-release
