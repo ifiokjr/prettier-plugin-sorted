@@ -1,4 +1,5 @@
 import { format } from 'prettier';
+
 import * as prettierPluginSorted from '..';
 
 const unsortedImports = `

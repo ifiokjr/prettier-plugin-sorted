@@ -18,7 +18,7 @@
     invariant "^2.2.4"
     semver "^5.5.0"
 
-"@babel/core@^7.1.0", "@babel/core@^7.2.2", "@babel/core@^7.4.4":
+"@babel/core@^7.1.0", "@babel/core@^7.4.4":
   version "7.8.7"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.8.7.tgz#b69017d221ccdeb203145ae9da269d72cf102f3b"
   integrity sha512-rBlqF3Yko9cynC5CCFy6+K/w2N+Sq/ff2BPy+Krp7rHlABIr5epbA7OxVeKoMHB39LZOp1UY5SuLjy6uWi35yA==
@@ -254,11 +254,6 @@
     chalk "^2.0.0"
     esutils "^2.0.2"
     js-tokens "^4.0.0"
-
-"@babel/parser@^7.0.0-beta.54":
-  version "7.8.8"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.8.8.tgz#4c3b7ce36db37e0629be1f0d50a571d2f86f6cd4"
-  integrity sha512-mO5GWzBPsPf6865iIbzNE0AvkKF3NE+2S3eRUpE+FE07BOAkXh6G+GW/Pj01hhXjve1WScbaIO4UlY1JKeqCcA==
 
 "@babel/parser@^7.1.0", "@babel/parser@^7.4.3", "@babel/parser@^7.7.0", "@babel/parser@^7.8.6", "@babel/parser@^7.8.7":
   version "7.8.7"
@@ -744,7 +739,7 @@
     "@babel/parser" "^7.8.6"
     "@babel/types" "^7.8.6"
 
-"@babel/traverse@^7.0.0-beta.54", "@babel/traverse@^7.1.0", "@babel/traverse@^7.4.3", "@babel/traverse@^7.7.0", "@babel/traverse@^7.8.3", "@babel/traverse@^7.8.4", "@babel/traverse@^7.8.6":
+"@babel/traverse@^7.1.0", "@babel/traverse@^7.4.3", "@babel/traverse@^7.7.0", "@babel/traverse@^7.8.3", "@babel/traverse@^7.8.4", "@babel/traverse@^7.8.6":
   version "7.8.6"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.8.6.tgz#acfe0c64e1cd991b3e32eae813a6eb564954b5ff"
   integrity sha512-2B8l0db/DPi8iinITKuo7cbPznLCEk0kCxDoB9/N6gGNg/gxOXiR/IcymAFPiBwk5w6TtQ27w4wpElgp9btR9A==
@@ -759,7 +754,7 @@
     globals "^11.1.0"
     lodash "^4.17.13"
 
-"@babel/types@^7.0.0", "@babel/types@^7.0.0-beta.54", "@babel/types@^7.3.0", "@babel/types@^7.4.0", "@babel/types@^7.7.0", "@babel/types@^7.8.3", "@babel/types@^7.8.6", "@babel/types@^7.8.7":
+"@babel/types@^7.0.0", "@babel/types@^7.3.0", "@babel/types@^7.4.0", "@babel/types@^7.7.0", "@babel/types@^7.8.3", "@babel/types@^7.8.6", "@babel/types@^7.8.7":
   version "7.8.7"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.8.7.tgz#1fc9729e1acbb2337d5b6977a63979b4819f5d1d"
   integrity sha512-k2TreEHxFA4CjGkL+GYjRyx35W0Mr7DP5+9q6WMkyKXB+904bYmG40syjMFV0oLlhhFCwWl0vA0DyzTDkwAiJw==
@@ -1355,6 +1350,13 @@
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/@types/resolve/-/resolve-0.0.8.tgz#f26074d238e02659e323ce1a13d041eee280e194"
   integrity sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
+  dependencies:
+    "@types/node" "*"
+
+"@types/resolve@^1.14.0":
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/@types/resolve/-/resolve-1.14.0.tgz#c95d696264f8e53e764a7c0b83e9317b458b76c3"
+  integrity sha512-bmjNBW6tok+67iOsASeYSJxSgY++BIR35nGyGLORTDirhra9reJ0shgGL3U7KPDUbOBCx8JrlCjd4d/y5uiMRQ==
   dependencies:
     "@types/node" "*"
 
@@ -3619,11 +3621,6 @@ fast-levenshtein@~2.0.6:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
-fast-memoize@^2.5.2:
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/fast-memoize/-/fast-memoize-2.5.2.tgz#79e3bb6a4ec867ea40ba0e7146816f6cdce9b57e"
-  integrity sha512-Ue0LwpDYErFbmNnZSF0UH6eImUwDmogUO1jyE+JbN2gsQz/jICm1Ve7t9QT0rNSsfJt+Hs4/S3GnsDVjL4HVrw==
-
 fastq@^1.6.0:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.6.1.tgz#4570c74f2ded173e71cf0beb08ac70bb85826791"
@@ -3702,11 +3699,6 @@ find-cache-dir@^3.0.0:
     commondir "^1.0.1"
     make-dir "^3.0.2"
     pkg-dir "^4.1.0"
-
-find-line-column@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/find-line-column/-/find-line-column-0.5.2.tgz#db00238ff868551a182e74a103416d295a98c8ca"
-  integrity sha1-2wAjj/hoVRoYLnShA0FtKVqYyMo=
 
 find-npm-prefix@^1.0.2:
   version "1.0.2"
@@ -4370,17 +4362,6 @@ import-sort-config@^6.0.0:
     minimatch "^3.0.4"
     resolve-from "^4.0.0"
 
-import-sort-parser-babylon@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/import-sort-parser-babylon/-/import-sort-parser-babylon-6.0.0.tgz#e1a4c28e0794ad7d9ff36cd045559d8ca8c38be7"
-  integrity sha512-NyShTiNhTh4Vy7kJUVe6CuvOaQAzzfSIT72wtp3CzGjz8bHjNj59DCAjncuviicmDOgVAgmLuSh1WMcLYAMWGg==
-  dependencies:
-    "@babel/core" "^7.2.2"
-    "@babel/parser" "^7.0.0-beta.54"
-    "@babel/traverse" "^7.0.0-beta.54"
-    "@babel/types" "^7.0.0-beta.54"
-    find-line-column "^0.5.2"
-
 import-sort-parser-typescript@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/import-sort-parser-typescript/-/import-sort-parser-typescript-6.0.0.tgz#98e73cef9e077d073e798722ed59e215b51c17e2"
@@ -4393,16 +4374,15 @@ import-sort-parser@^6.0.0:
   resolved "https://registry.yarnpkg.com/import-sort-parser/-/import-sort-parser-6.0.0.tgz#0d901f264d98ed7caaae71f66128a686f828f2f4"
   integrity sha512-H5L+d6HnqHvThB0GmAA3/43Sv74oCwL0iMk3/ixOv0LRJ69rCyHXeG/+UadMHrD2FefEmgPIWboEPAG7gsQrkA==
 
-import-sort-style-custom@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/import-sort-style-custom/-/import-sort-style-custom-1.1.1.tgz#ff675af56495fc24df90123cdbb4e25211500e41"
-  integrity sha512-0p9Bic6un+0Hs8nNx+XxYvW7eSnETRroRTx/Q6BrfU+T/S/cEr/zcHlE6AIfvUB9vTpAOqxScpTT4yOo7sNz9g==
+import-sort-style-custom@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/import-sort-style-custom/-/import-sort-style-custom-2.0.0.tgz#51221f92adb299459498235adb225b4fbc450868"
+  integrity sha512-SEKPf5zHlMWhd51lSLwfBTtRgBT0HwcJ+xuECQwHl5Iln21spUPwbYgouebleWSB9xa99krgKlT/opwJnTk0EQ==
   dependencies:
     escape-string-regexp "^2.0.0"
-    fast-memoize "^2.5.2"
     import-sort-parser "^6.0.0"
     import-sort-style "^6.0.0"
-    tsconfig-resolver "^1.1.0"
+    tsconfig-resolver "^2.0.1"
 
 import-sort-style@^6.0.0:
   version "6.0.0"
@@ -7245,16 +7225,6 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier-plugin-import-sort@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-import-sort/-/prettier-plugin-import-sort-0.0.3.tgz#5184ba2aba8d88323b16c276bc04e11ebf784504"
-  integrity sha512-wDMt9bGg59H/+OBpD13lKaOYTtyuqmtzzO8ZH7MhpJadm7SZctl6l+OdXmqbK0bxxLYs5LDRxJageUYynmKOmQ==
-  dependencies:
-    import-sort "^6.0.0"
-    import-sort-config "^6.0.0"
-    import-sort-parser-babylon "^6.0.0"
-    import-sort-parser-typescript "^6.0.0"
-
 prettier-plugin-packagejson@^2.0.10:
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/prettier-plugin-packagejson/-/prettier-plugin-packagejson-2.0.10.tgz#65bf6245ee40a4c1e1e9bd69d0b5617b188d45f6"
@@ -8970,13 +8940,16 @@ ts-jest@^24.0.2:
     semver "^5.5"
     yargs-parser "10.x"
 
-tsconfig-resolver@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/tsconfig-resolver/-/tsconfig-resolver-1.1.0.tgz#7791a20a12f5c5723c53b4aca4adfc675fe027f2"
-  integrity sha512-U/DYhTo3fyJU28O86rV9gXVVJiKA7DpzxpcWXnnu8Phn1nKfGIbMzz6CiyXuJsVuOOBTvFM5hnRzyMED//BmLw==
+tsconfig-resolver@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/tsconfig-resolver/-/tsconfig-resolver-2.0.1.tgz#166e3d2841df1bc58c5017cc8b0db4ee21ab9482"
+  integrity sha512-vZ3zrDMtdLF2bQnNIQ9tPfBz09xdtfE8fhVTQfdvxuMM1pkZbWirTQryjFG2xC1l1hIbeKl33bPd/O9LHn+qIQ==
   dependencies:
     "@types/json5" "^0.0.30"
+    "@types/resolve" "^1.14.0"
     json5 "^2.1.1"
+    prettier-plugin-packagejson "^2.0.10"
+    resolve "^1.15.1"
     strip-bom "^4.0.0"
     type-fest "^0.12.0"
 
