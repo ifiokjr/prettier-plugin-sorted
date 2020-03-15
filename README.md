@@ -7,7 +7,7 @@
 ![MIT License][license]
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <br />
@@ -142,9 +142,6 @@ This project uses [SemVer](http://semver.org/) for versioning. For the versions 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -153,15 +150,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <table>
   <tr>
     <td align="center"><a href="https://ifiokjr.com"><img src="https://avatars2.githubusercontent.com/u/1160934?v=4" width="100px;" alt=""/><br /><sub><b>Ifiok Jr.</b></sub></a><br /><a href="https://github.com/ifiokjr/prettier-plugin-sorted/commits?author=ifiokjr" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.twitter.com/ggascoigne"><img src="https://avatars0.githubusercontent.com/u/264916?v=4" width="100px;" alt=""/><br /><sub><b>Guy Gascoigne-Piggford</b></sub></a><br /><a href="https://github.com/ifiokjr/prettier-plugin-sorted/commits?author=ggascoigne" title="Code">💻</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
 
 [version]: https://flat.badgen.net/npm/v/prettier-plugin-sorted
 [npm]: https://npmjs.com/package/prettier-plugin-sorted
