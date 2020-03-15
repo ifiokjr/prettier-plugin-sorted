@@ -1,3 +1,10 @@
+### [1.2.1](https://github.com/ifiokjr/prettier-plugin-sorted/compare/v1.2.0...v1.2.1) (2020-03-15)
+
+
+### Bug Fixes
+
+* handle circular tsconfig files ([cb0b282](https://github.com/ifiokjr/prettier-plugin-sorted/commit/cb0b2822ec9bd3fd0736ddcf3c527eecf049157a))
+
 ## [1.2.0](https://github.com/ifiokjr/prettier-plugin-sorted/compare/v1.1.0...v1.2.0) (2020-03-14)
 
 
