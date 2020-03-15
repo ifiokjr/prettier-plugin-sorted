@@ -6,6 +6,9 @@
 [![Typed Codebase][typescript]](./src/index.ts)
 ![MIT License][license]
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <br />
 
@@ -19,6 +22,7 @@
   - [Table of Contents](#table-of-contents)
   - [Usage](#usage)
     - [Setup](#setup)
+  - [Demo](#demo)
   - [Versioning](#versioning)
   - [License](#license)
   - [Contributors](#contributors)
@@ -119,6 +123,14 @@ If you would like to customise the setup you can add the `importSort` field to y
 
 <br />
 
+## Demo
+
+The following animated flow shows what it's like when this is setup with prettier in your editor.
+
+![Demo Screen flow](https://raw.githubusercontent.com/ifiokjr/import-sort-style-custom/master/assets/demo.gif 'Demonstration with prettier')
+
+<br />
+
 ## Versioning
 
 This project uses [SemVer](http://semver.org/) for versioning. For the versions available, see the
@@ -136,7 +148,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://ifiokjr.com"><img src="https://avatars2.githubusercontent.com/u/1160934?v=4" width="100px;" alt=""/><br /><sub><b>Ifiok Jr.</b></sub></a><br /><a href="https://github.com/ifiokjr/prettier-plugin-sorted/commits?author=ifiokjr" title="Code">💻</a></td>
+  </tr>
+</table>
 
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 <!-- markdownlint-enable -->

@@ -1,0 +1,24 @@
+{
+  "projectName": "prettier-plugin-sorted",
+  "projectOwner": "ifiokjr",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "ifiokjr",
+      "name": "Ifiok Jr.",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1160934?v=4",
+      "profile": "https://ifiokjr.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
