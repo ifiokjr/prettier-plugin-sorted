@@ -3,7 +3,7 @@ import path from 'path';
 import sortImports from 'import-sort';
 import { IConfigByGlobs, getConfig } from 'import-sort-config';
 import { Plugin } from 'prettier';
-import { parsers as javascriptParsers } from 'prettier/parser-babylon';
+import { parsers as javascriptParsers } from 'prettier/parser-babel';
 import { parsers as typescriptParsers } from 'prettier/parser-typescript';
 import invariant from 'tiny-invariant';
 
