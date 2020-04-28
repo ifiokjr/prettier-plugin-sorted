@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/ifiokjr/prettier-plugin-sorted/compare/v1.2.1...v2.0.0) (2020-04-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* `prettier@2` is now supported.
+
+### Features
+
+* update library for prettier@2 ([#2](https://github.com/ifiokjr/prettier-plugin-sorted/issues/2)) ([64b7b7e](https://github.com/ifiokjr/prettier-plugin-sorted/commit/64b7b7e3d4f1e844625a1bb904eaa8c5eccb9484))
+
 ### [1.2.1](https://github.com/ifiokjr/prettier-plugin-sorted/compare/v1.2.0...v1.2.1) (2020-03-15)
 
 
