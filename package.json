@@ -11,6 +11,10 @@
     "tsconfig",
     "alias"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ifiokjr/prettier-plugin-sorted.git"
+  },
   "license": "MIT",
   "author": {
     "name": "Ifiok Jr.",
