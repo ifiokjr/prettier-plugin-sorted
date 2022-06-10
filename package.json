@@ -68,7 +68,7 @@
     "lint-staged": "^10.2.0",
     "prettier": "^2.0.0",
     "prettier-plugin-packagejson": "^2.2.2",
-    "semantic-release": "^17.0.7",
+    "semantic-release": "^19.0.3",
     "tsdx": "^0.13.2",
     "tslib": "^1.11.1",
     "typescript": "^3.8.3"
